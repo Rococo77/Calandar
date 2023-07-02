@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Inscription</title>
+    <link rel="stylesheet" type="text/css" href="style-login.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Inscription</h2>
+        <form method="post" action="inscription.php">
+            <label for="nom">Nom :</label>
+            <input type="text" name="nom" required><br><br>
+
+            <label for="prenom">Prénom :</label>
+            <input type="text" name="prenom" required><br><br>
+
+            <label for="email">E-mail :</label>
+            <input type="email" name="email" required><br><br>
+
+            <label for="password">Mot de passe :</label>
+            <input type="password" name="password" required><br><br>
+
+            <label for="langue">Langue :</label>
+            <select name="langue" required>
+                <option value="francais">Français</option>
+                <option value="anglais">English</option>
+                <option value="espagnol">Español</option>
+                <option value="allemand">Deutsch</option>
+                <option value="italien">Italiano</option>
+                <option value="portuguais">Portugais</option>
+                <option value="chinois">中国 </option>
+                <option value="arabe">العربية</option>
+            </select><br><br>
+
+            <input type="submit" value="S'inscrire">
+        </form>
+    </div>
+</body>
+</html>
